@@ -1,0 +1,9 @@
+#!/bin/bash
+
+serviceName=$1;
+logsType=$2;
+
+command=$(node /Users/volodymyr.vovk/playground/nomad_cli/nomad_logs.js $serviceName $logsType)
+
+nomad $command
+

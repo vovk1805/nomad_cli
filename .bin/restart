@@ -1,0 +1,6 @@
+#!/bin/bash
+
+serviceName=$1;
+
+node /Users/volodymyr.vovk/playground/nomad_cli/nomad_restart.js $serviceName
+

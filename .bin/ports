@@ -1,0 +1,4 @@
+#!/bin/bash
+
+node /Users/volodymyr.vovk/playground/nomad_cli/nomad_ports.js
+
